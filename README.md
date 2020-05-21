@@ -38,6 +38,6 @@ $ ./gen.sh 1024 7 12 /logs/apache/
 ```
 The log files generated will look the following
 ```
-apache_05_08_2020.log  apache_05_09_2020.log  apache_05_10_2020.log  apache_05_11_2020.log  apache_05_12_2020.log
-apache_05_13_2020.log  apache_05_14_2020.log
+apache_05_08_2020.log  apache_05_09_2020.log  apache_05_10_2020.log  apache_05_11_2020.log  
+apache_05_12_2020.log  apache_05_13_2020.log  apache_05_14_2020.log
 ```

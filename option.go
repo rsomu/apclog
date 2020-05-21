@@ -9,9 +9,9 @@ import (
 )
 
 const version = "0.1.0"
-const usage = `alog is a fake log generator for common log formats
+const usage = `apclog is a fake log generator for common log formats
 
-Usage: alog [options]
+Usage: apclog [options]
 
 Version: %s
 
@@ -43,7 +43,7 @@ func printUsage() {
 }
 
 func printVersion() {
-	fmt.Printf("alog version %s\n", version)
+	fmt.Printf("apclog version %s\n", version)
 }
 
 func errorExit(err error) {

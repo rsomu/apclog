@@ -1,4 +1,4 @@
-module github.com/briangold/alog
+module github.com/rsomu/apclog
 
 require (
 	bou.ke/monkey v1.0.1

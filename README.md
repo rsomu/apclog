@@ -18,7 +18,7 @@ Verify by running
 $ ./apclog -h
 
 
-# Generate the apache logs
+# Usage
 Run the following command to generate the apache logs
 $ ./gen.sh
 Usage: ./gen.sh gb_per_day days workers dest

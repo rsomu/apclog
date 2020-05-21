@@ -1,8 +1,9 @@
 # apclog
 Apache log generator using golang
 
-Prerequisites
+# Prerequisites
  go  - Go Language installed and the binary location is included in the PATH variable
+ 
  git - Required for downloading dependent repositories
 
 
@@ -10,6 +11,7 @@ Prerequisites
 Once the repository is downloaded to the system, please run the following commands
 
 $ cd apclog
+
 $ go build
 
 Verify by running
@@ -21,10 +23,14 @@ Run the following command to generate the apache logs
 $ ./gen.sh
 Usage: ./gen.sh gb_per_day days workers dest
 
-gb_per_day - Log file size in GB per day 
+gb_per_day - Log file size in GB per day
+
 days - Number of days the log file should be generated
+
 workers - Parallel threads/workers to speed up the data generation per day
+
 dest - Destination directory where the log files will be created
+
 
 For example, if you want to generate 1TB/day for 7 days the following command
 will create 7 x 1TB files, one for every day from (current_day - 7) days
